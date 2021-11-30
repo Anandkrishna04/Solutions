@@ -1,0 +1,134 @@
+    1  git init
+    2  git clone https://github.com/infracloudio/csvserver.githttps://github.com/infracloudio/csvserver.githttps://github.com/infracloudio/csvserver.githttps://github.com/infracloudio/csvserver.githttps://github.com/infracloudio/csvserver.githttps://github.com/infracloudio/csvserver.git
+    3  git clone https://github.com/infracloudio/csvserver.git
+    4  git csvserver
+    5  cd csvserver
+    6  cd solution
+    7  docker pull infracloudio/csvserver:latest
+    8  docker pull prom/prometheus:v2.22.0
+    9  cd ..
+   10  git init
+   11  cd solution/
+   12  git init
+   13  docker images
+   14  docker run 8cb
+   15  vim gencsv.sh
+   16  chmod ugo+x gencsv.sh 
+   17  ./gencsv.sh
+   18  ls
+   19  chmod ugo+x inputFile 
+   20  ls
+   21  docker run -d --volume=`pwd`/inputFile:/csvserver/inputdata 8cb989ef80b5
+   22  docker exec -it 7b1 /bin/bash
+   23  docker ps
+   24  dockeer stop 7b1
+   25  docker stop 7b1
+   26  docker rm 7b1
+   27  docker run -d -p 9393:9300  --volume=`pwd`/inputFile:/csvserver/inputdata 8cb989ef80b5
+   28  ./gencsv.sh 10
+   29  docker stop c25
+   30  dcoker rm c25
+   31  docker rm c25
+   32  docker run -d -p 9393:9300  --volume=`pwd`/inputFile:/csvserver/inputdata 8cb989ef80b5
+   33  docker stop 16d
+   34  docker rm 16d
+   35  docker run -d -p 9393:9300  --volume=`pwd`/inputFile:/csvserver/inputdata --env CSVSERVER_BORDER=orange  8cb989ef80b5
+   36  curl -o ./part-1-output http://localhost:9393/raw
+   37  vim part-1-cmd
+   38  docker logs [container_id] >& part-1-logs
+   39  ls
+   40  git init
+   41  cd ..
+   42  git add .
+   43  git commit -m "part1"
+   44  git config --global user.name "Anandkrishna04"
+   45  git commit -m "part1"
+   46  git config --global user.name "Anandkrishnakashyap26@gmail.com"
+   47  git commit -m "part1"
+   48  git config --global user.email "anandkrishnakashyap26@gmail.com"
+   49  git config --global user.name "anandkrishna04"
+   50  git commit -m "part1"
+   51  git remote add https://github.com/Anandkrishna04/Solutions.git
+   52  git push
+   53  git push 
+   54  git push https://github.com/Anandkrishna04/Solutions.git
+   55  docke rps
+   56  docke rps
+   57  docker ps
+   58  docker stop f9
+   59  docker rm f9
+   60  vim docker-compose.yaml
+   61  docker-compose up --detach
+   62  docker ps
+   63   sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(unam -m)" -o /usr/local/bin/docker-compose\n
+   64  sudo chmod +x /usr/local/bin/docker-compose\n
+   65  docker-compose --version
+   66  docker-compose up --detach
+   67  docker ps
+   68  ls
+   69  mv docker-compose.yaml solution/
+   70  cd solution/
+   71  docker-compose up --detach
+   72  docker ps
+   73  git add .
+   74  git commit -m "part2"
+   75  git push 
+   76  cd ..
+   77  git add .
+   78  git commit-m "part2"
+   79  git commit -m "part2"
+   80  git push origin master
+   81  git push origin master
+   82  git push origin master
+   83  git remote add https://github.com/Anandkrishna04/Solutions.git
+   84  git push
+   85  git push https://github.com/Anandkrishna04/Solutions.git
+   86  docker ps
+   87  docker stop dd
+   88  docker rm dd
+   89  vim promtheus.yml
+   90  docker images
+   91  docker run -d --volume=`pwd` /prometheus.yml:/etc/prometheus/prometheus.yml 7ad
+   92  docker run -d --volume=`pwd`/prometheus.yml:/etc/prometheus/prometheus.yml 7ad
+   93  ls
+   94  mv prometheus.yml solution/
+   95  ls
+   96  rm inputFile/
+   97  rm -rf inputFile/
+   98  ls
+   99  rm promtheus.yml solution
+  100  rm promtheus.yml 
+  101  ls
+  102  cd solution
+  103  ls
+  104  cd prometheus.yml/
+  105  cd ..
+  106  rm -rf prometheus.yml/
+  107  vim prometheus.yml
+  108  docker run -d --volume=`pwd`/prometheus.yml:/etc/prometheus/prometheus.yml 7ad
+  109  docker ps
+  110  docker stop c108
+  111  docker rm c108
+  112  vim docker-compose.yaml 
+  113  vim prometheus.yml 
+  114  docker-compose up --detach
+  115  cd ..
+  116  git add .
+  117  git commit -m "part3"
+  118  git pushc
+  119  git push https://github.com/Anandkrishna04/Solutions.git
+  120  cd ..
+  121  docker ps
+  122  docker stop 169
+  123  docker stop 5c
+  124  docker rm 5c
+  125  docker rm 169
+  126  curl -o ./part-1-output http://localhost:9393/raw
+  127  cd csvserver/
+  128  cd solution/
+  129  curl -o ./part-1-output http://localhost:9393/raw
+  130  docker logs [container_id] >& part-1-logs
+  131  docker-compose up --detach
+  132  history >> cat raw
+  133  history 
+  134  history > raw
